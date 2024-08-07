@@ -41,8 +41,8 @@ export const links = () => {
 
 export const meta = () => {
   return baseMeta({
-    title: 'Designer + Developer',
-    description: `Design portfolio of ${config.name} — a product designer working on web & mobile apps with a focus on motion, experience design, and accessibility.`,
+    title: 'System Admin + Developer + Cyber Security',
+    description: `Design portfolio of ${config.name} — a Full stack developer working on web & system apps with a focus on security, automation and modular design.`,
   });
 };
 

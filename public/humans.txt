@@ -8,18 +8,18 @@ and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+Systems Admin, CyberSecurity | デザイナー
 
-Hamish Williams
-Hand crafted design & web development
+Trevor Maliro
+Fork from an established developer Hamish Williams
 
 Design tools:
 Figma
 Photoshop
 Blender
 
-twitter.com/hamishmw
-github.com/hamishmw
+
+github.com/Stillhere3000
 
 _______________________________________________________________________________
 

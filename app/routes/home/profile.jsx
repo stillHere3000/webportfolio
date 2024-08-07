@@ -21,16 +21,15 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m TrevorJ, currently I live in Ontario Canada as a student {' '}
+      <Link href="https://www.algomau.ca">Algoma</Link>. My projects include Wazuh Security Operation Center Home lab, 
+      Grafana Dashboard, and a few other projects. I have a passion for  secure infrastructure, Observerability
+      and Full stack development. Being comfortable with code and complex systems and thier supporting infrastucture allowed me to present this portfolio
+      , which is a fork from a telented developer <a href="https://hamishw.com/">Hamish Williams</a>, please check his website he is a top tier designer.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+       I am a father of three children and in my spare time I like to play rugby, walks while listening to podcasts about the world{' '}. 
+       I’m always down for hearing about new projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );
