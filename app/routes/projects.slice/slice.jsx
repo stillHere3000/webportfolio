@@ -40,10 +40,10 @@ import { media } from '~/utils/style';
 import { baseMeta } from '~/utils/meta';
 import styles from './slice.module.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'Wazuh Security Operation Center Home Lab';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'This project involved designing and deploying a NGFW, all ingesting logs into a wazuh graylog grafana stack.';
+const roles = ['System Administration', 'Dev Ops', 'Cyber Security'];
 
 export const meta = () => {
   return baseMeta({ title, description, prefix: 'Projects' });
@@ -64,7 +64,7 @@ export const Slice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="#"
           roles={roles}
         />
         <ProjectSection padding="top">
@@ -74,7 +74,7 @@ export const Slice = () => {
               width={800}
               height={500}
               placeholder={sliceAppPlaceholder}
-              alt="The Slice web application showing a selected user annotation."
+              alt="The Wazuh web application showing a selected user annotation."
               sizes={`(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 90vw, 80vw`}
             />
           </ProjectSectionContent>
@@ -84,10 +84,10 @@ export const Slice = () => {
             <div className={styles.imagesText}>
               <ProjectSectionHeading>Bringing it together</ProjectSectionHeading>
               <ProjectSectionText>
-                Teachers needed a better way to create collaborative group activities by
-                annotating slides on Slice. Before starting this project, a layer could
-                only be annotated by a single user, making it difficult for learners to
-                work together.
+                Starting with Proxmox as my instrument for orchestratian. Deployed a VM with wazuh application (indexer, manager, dashboard, filebeat).
+                For greater log enrichment I use MISP (malware information sharing platform), VirusTotal, GreyNoise along with host of other third party API's
+                to increase the liklehood of catching an intrusion attempt. All of which is documented on my <a href='#'>medium pages</a> 
+
               </ProjectSectionText>
               <ProjectSectionText>
                 Our solution was to allow users to be invited to a layer, where they can

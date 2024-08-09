@@ -148,13 +148,14 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Wazuh-MSP Stack"
+        description="Starting with Proxmox as my instrument for orchestratian. Deployed a VM with wazuh application (indexer, manager, dashboard, filebeat).
+        A grafana instance for visualization and dashboards. "
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
           type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
+          alt: 'A mini security Operations Center.',
           textures: [
             {
               srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
